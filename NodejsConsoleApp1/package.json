@@ -1,0 +1,15 @@
+{
+  "name": "BitcoinStatsWebJob",
+  "version": "1.0.0",
+  "description": "A webjob built to run in Azure environment, responsible for updating a database with bitcoin exchanges data.",
+  "main": "app.js",
+  "author": {
+    "name": "ernanirst",
+    "email": "ernanirst@gmail.com"
+  },
+  "dependencies": {
+    "assert": "^1.3.0",
+    "azure-storage": "^0.6.0",
+    "request": "^2.67.0"
+  }
+}
